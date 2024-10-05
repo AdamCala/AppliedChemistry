@@ -20,7 +20,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SULFUR_ORE = registerBlock("sulfur_ore",
             ()->new Block(BlockBehaviour.Properties.of()
-                    .strength(2f,1f)
+                    .strength(1f,1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.TUFF)));
+
+    public static final RegistryObject<Block> SULFUR_BLOCK = registerBlock("sulfur_block",
+            ()->new Block(BlockBehaviour.Properties.of()
+                    .strength(1f,1f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.TUFF)));
 
