@@ -1,4 +1,6 @@
 {
   "item.appliedchemistry.sulfur": "Sulfur",
-  "block.appliedchemistry.sulfur_ore": "Sulfur Ore"
+  "block.appliedchemistry.sulfur_ore": "Sulfur Ore",
+  "creativetab.appliedchemistry.base_resources": "Base Resources",
+  "creativetab.appliedchemistry.base_blocks": "Base Blocks"
 }

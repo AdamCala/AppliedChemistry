@@ -2,6 +2,7 @@ package net.beelephant.appliedchemistry;
 
 import com.mojang.logging.LogUtils;
 import net.beelephant.appliedchemistry.block.ModBlocks;
+import net.beelephant.appliedchemistry.item.ModCreativeModeTabs;
 import net.beelephant.appliedchemistry.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,6 +38,8 @@ public class AppliedChemistry
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register((modEventBus));
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -54,12 +57,7 @@ public class AppliedChemistry
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey()== CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.SULFUR);
-        }
-        if (event.getTabKey()==CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept((ModBlocks.SULFUR_ORE));
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
