@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "appliedchemistry:item/vanadium"
+    "layer0": "appliedchemistry:item/sulfur"
   }
 }
