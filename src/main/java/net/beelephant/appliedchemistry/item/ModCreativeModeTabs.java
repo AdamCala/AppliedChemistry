@@ -15,19 +15,19 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AppliedChemistry.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> BASE_RESOURCES_TAB = CREATIVE_MODE_TABS.register("base_resources_tab",
-            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.SULFUR.get()))
+            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.RAW_SULFUR_ORE.get()))
                     .title(Component.translatable("creativetab.appliedchemistry.base_resources"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.SULFUR.get());
+                        output.accept(ModItems.RAW_SULFUR_ORE.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> BASE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("base_blocks_tab",
-            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.SULFUR_ORE.get()))
+            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.SULFUR_ORE_BLOCK.get()))
                     .withTabsBefore(BASE_RESOURCES_TAB.getId())
                     .title(Component.translatable("creativetab.appliedchemistry.base_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.SULFUR_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_SULFUR_ORE.get());
+                        output.accept(ModBlocks.SULFUR_ORE_BLOCK.get());
+                        output.accept(ModBlocks.DEEPSLATE_SULFUR_ORE_BLOCK.get());
                         output.accept(ModBlocks.SULFUR_BLOCK.get());
                     }).build());
 

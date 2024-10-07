@@ -1,7 +1,7 @@
 {
-  "item.appliedchemistry.sulfur": "Sulfur",
-  "block.appliedchemistry.sulfur_ore": "Sulfur Ore",
-  "block.appliedchemistry.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+  "item.appliedchemistry.raw_sulfur_ore": "Raw Sulfur Ore",
+  "block.appliedchemistry.sulfur_ore_block": "Sulfur Ore",
+  "block.appliedchemistry.deepslate_sulfur_ore_block": "Deepslate Sulfur Ore",
   "block.appliedchemistry.sulfur_block": "Sulfur Block",
   "creativetab.appliedchemistry.base_resources": "Base Resources",
   "creativetab.appliedchemistry.base_blocks": "Base Blocks"

@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, AppliedChemistry.MOD_ID);
 
-    public static final RegistryObject<Item> SULFUR = ITEMS.register("sulfur",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_SULFUR_ORE = ITEMS.register("raw_sulfur_ore",()->new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}

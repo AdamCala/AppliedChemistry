@@ -20,11 +20,11 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, AppliedChemistry.MOD_ID);
 
-    public static final RegistryObject<Block> SULFUR_ORE = registerBlock("sulfur_ore",
+    public static final RegistryObject<Block> SULFUR_ORE_BLOCK = registerBlock("sulfur_ore_block",
             ()->new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> DEEPSLATE_SULFUR_ORE = registerBlock("deepslate_sulfur_ore",
+    public static final RegistryObject<Block> DEEPSLATE_SULFUR_ORE_BLOCK = registerBlock("deepslate_sulfur_ore_block",
             ()->new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.TUFF)));
 

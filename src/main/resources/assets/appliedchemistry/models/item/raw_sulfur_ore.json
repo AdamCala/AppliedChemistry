@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "appliedchemistry:item/sulfur"
+    "layer0": "appliedchemistry:item/raw_sulfur_ore"
   }
 }
