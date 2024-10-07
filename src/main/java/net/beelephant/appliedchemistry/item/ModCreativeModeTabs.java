@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.appliedchemistry.base_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SULFUR_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_SULFUR_ORE.get());
                         output.accept(ModBlocks.SULFUR_BLOCK.get());
                     }).build());
 

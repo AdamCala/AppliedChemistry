@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "appliedchemistry:sulfur_block",
+    "appliedchemistry:sulfur_ore",
+    "appliedchemistry:deepslate_sulfur_ore"
+  ]
+}
